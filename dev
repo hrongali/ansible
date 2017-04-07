@@ -1,0 +1,9 @@
+[master]
+m1.hdp.com ansible_user=hrongali ansible_ssh_private_key_file=/home/hrongali/ansible
+
+[worker]
+m2.hdp.com ansible_user=hrongali ansible_ssh_private_key_file=/home/hrongali/ansible
+m3.hdp.com ansible_user=hrongali ansible_ssh_private_key_file=/home/hrongali/ansible
+
+[control]
+control ansible_connection=local ansible_user=hrongali ansible_ssh_private_key_file=/home/hrongali/ansible
